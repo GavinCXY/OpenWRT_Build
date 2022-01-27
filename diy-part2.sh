@@ -13,4 +13,14 @@
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 
-./scripts/feeds install -p v2ray-core
+./scripts/feeds install -f aliyundrive-webdav
+./scripts/feeds install -f luci-app-aliyundrive-webdav
+./scripts/feeds install -f redsocks2
+./scripts/feeds install -f microsocks
+./scripts/feeds install -f luci-app-jd-dailybonus
+./scripts/feeds install -f dns2socks
+./scripts/feeds install -f ipt2socks
+./scripts/feeds install -f pdnsd-alt
+./scripts/feeds install -f luci-app-pushbot
+./scripts/feeds install -f UnblockNeteaseMusic
+./scripts/feeds install -f luci-app-dockerman
