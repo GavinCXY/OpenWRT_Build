@@ -24,3 +24,16 @@
 ./scripts/feeds install -f luci-app-pushbot
 ./scripts/feeds install -f UnblockNeteaseMusic
 ./scripts/feeds install -f luci-app-dockerman
+
+
+wget --show-progress https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/build_dir.tar.xz00
+wget --show-progress https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/build_dir.tar.xz01
+wget --show-progress https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/build_dir.tar.xz02
+wget --show-progress https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/build_dir.tar.xz03
+wget --show-progress https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/build_dir.tar.xz04
+wget --show-progress https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/staging_dir.tar.xz
+
+tar -Jxvf staging_dir.tar &
+
+cat build_dir.tar.xz0* > build_dir.tar.xz
+tar -Jxvf build_dir.tar.xz
