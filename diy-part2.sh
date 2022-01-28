@@ -26,12 +26,13 @@
 ./scripts/feeds install -f luci-app-dockerman
 
 
-wget https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/build_dir.tar.xz00 &
-wget https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/build_dir.tar.xz01 &
-wget https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/build_dir.tar.xz02 &
-wget https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/build_dir.tar.xz03
-wget https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/build_dir.tar.xz04
-wget https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/staging_dir.tar.xz
+
+wget https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/staging_dir.tar.xz &
+wget https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/build_dir.tar.xz04 &
+wget https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/build_dir.tar.xz03 &
+wget https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/build_dir.tar.xz02
+wget https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/build_dir.tar.xz01
+wget https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/build_dir.tar.xz00
 
 tar -Jxvf staging_dir.tar &
 
