@@ -40,4 +40,8 @@ rm -rf compilations.tar.xz0*
 tar -Jxf compilations.tar.xz
 rm -rf compilations.tar.xz
 
+mkdir -p bin
+mkdir -p /mnt/bin
+mount /mnt/bin ./bin
+
 df -Th
