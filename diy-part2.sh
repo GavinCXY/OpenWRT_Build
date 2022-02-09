@@ -27,14 +27,15 @@
 
 
 
-wget -b -q --show-progress https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/staging_dir.tar.xz
-wget -b -q --show-progress https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/build_dir.tar.xz04
-wget -b -q --show-progress https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/build_dir.tar.xz03
-wget -q --show-progress https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/build_dir.tar.xz02
-wget -q --show-progress https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/build_dir.tar.xz01
-wget -q --show-progress https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/build_dir.tar.xz00
+wget -q --show-progress https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/compilations.tar.xz00
+wget -q --show-progress https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/compilations.tar.xz01
+wget -q --show-progress https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/compilations.tar.xz02
+wget -q --show-progress https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/compilations.tar.xz03
+wget -q --show-progress https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/compilations.tar.xz04
+wget -q --show-progress https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/compilations.tar.xz05
+wget -q --show-progress https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/compilations.tar.xz06
 
-tar -Jxvf staging_dir.tar &
+cat compilations.tar.xz0* > compilations.tar.xz
+tar -Jxf compilations.tar.xz
 
-cat build_dir.tar.xz0* > build_dir.tar.xz
-tar -Jxvf build_dir.tar.xz
+df -Th
