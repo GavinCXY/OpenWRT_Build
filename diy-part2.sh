@@ -38,5 +38,6 @@ wget -q https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/compil
 cat compilations.tar.xz0* > compilations.tar.xz
 rm -rf compilations.tar.xz0*
 tar -Jxf compilations.tar.xz
+rm -rf compilations.tar.xz
 
 df -Th
