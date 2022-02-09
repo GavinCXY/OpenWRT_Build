@@ -27,13 +27,13 @@
 
 
 
-wget -q --show-progress https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/compilations.tar.xz00
-wget -q --show-progress https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/compilations.tar.xz01
-wget -q --show-progress https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/compilations.tar.xz02
-wget -q --show-progress https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/compilations.tar.xz03
-wget -q --show-progress https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/compilations.tar.xz04
-wget -q --show-progress https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/compilations.tar.xz05
-wget -q --show-progress https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/compilations.tar.xz06
+wget -q https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/compilations.tar.xz00
+wget -q https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/compilations.tar.xz01
+wget -q https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/compilations.tar.xz02
+wget -q https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/compilations.tar.xz03
+wget -q https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/compilations.tar.xz04
+wget -q https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/compilations.tar.xz05
+wget -q https://github.com/GavinCXY/OpenWRT_Build/releases/download/0.0.1/compilations.tar.xz06
 
 cat compilations.tar.xz0* > compilations.tar.xz
 tar -Jxf compilations.tar.xz
